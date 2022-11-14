@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="300.0" maxWidth="3000.0" minHeight="300.0"
+	minWidth="300.0" prefHeight="300.0" prefWidth="300.0"
+	xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="controllers.ControladorVentanaModalImagen">
+	<children>
+		<ImageView fx:id="imagen" fitHeight="300.0" fitWidth="300.0"
+			pickOnBounds="true" />
+	</children>
+</Pane>
